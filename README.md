@@ -12,7 +12,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 1
 > Selasa, 2 September 2025
 
-#### Deskripsi: Meningkatkan _typing skill_ dan menginstall _tool_ penunjang pembelajaran (BlueJ)
+#### Deskripsi: Meningkatkan _typing skill_
 ---
 
 ### Pertemuan 2
