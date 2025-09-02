@@ -2,7 +2,7 @@
 Ditulis oleh Muhammad Quthbi Danish Abqori - 5025241036 \
 Teknik Informatika - [Institut Teknologi Sepuluh Nopember (ITS)](https://www.its.ac.id/) \
 EF234302 - Pemrograman Berorientasi Objek (C) \
-Taught by [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/profil-fajar-baskoro/)
+Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/profil-fajar-baskoro/)
 
 
 ## Daftar Pertemuan
