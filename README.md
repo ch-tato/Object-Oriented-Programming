@@ -1,4 +1,4 @@
-# Oriented Programming Language (OOP)
+# Object Oriented Programming (OOP)
 Ditulis oleh Muhammad Quthbi Danish Abqori - 5025241036 \
 Teknik Informatika - [Institut Teknologi Sepuluh Nopember (ITS)](https://www.its.ac.id/) \
 EF234302 - Pemrograman Berorientasi Objek (C) \
@@ -12,7 +12,7 @@ Taught by [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/pro
 ### Pertemuan 1
 > Selasa, 2 September 2025
 
-#### Deskripsi: Meningkatkan _typewritting skill_ dan meng-_install_ _tool_ penunjang pembelajaran (BlueJ)
+#### Deskripsi: Meningkatkan _typing skill_ dan menginstall _tool_ penunjang pembelajaran (BlueJ)
 ---
 
 ### Pertemuan 2
