@@ -6,7 +6,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 
 
 ## Daftar Pertemuan
-- [Pertemuan 1](Pertemuan%201)
+- [Pertemuan 1](Pertemuan%201\Pertemuan-1.md)
 - [Pertemuan 2](Pertemuan%201)
 
 ### Pertemuan 1
