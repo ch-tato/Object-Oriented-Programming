@@ -49,7 +49,7 @@ Konsep OOP pertama kali dikenalkan dalam sebuah bahasa pemrograman bernama **Sim
 ### 3. Contoh Sederhana POP & OOP (Java)
 Berikut adalah contoh sederhana dari implementasi POP dan OOP dalam bahasa Java.
 #### a. Contoh POP (*Procedural-Oriented Programming*)
-Berikut adalah [`POP.java`](POP.java) yang merupakan contoh sederhana dari implementasi POP.
+Berikut adalah [`POP.java`](pop.java) yang merupakan contoh sederhana dari implementasi POP.
 ```java
 public class POP{
     // Fungsi untuk menghitung luas persegi panjang
@@ -70,7 +70,7 @@ Area = 15
 ```
 
 #### b. Contoh OOP (*Object-Oriented Programming*)
-Berikut adalah [`OOP.java`](OOP.java) yang merupakan contoh sederhana dari implementasi OOP.
+Berikut adalah [`OOP.java`](oop.java) yang merupakan contoh sederhana dari implementasi OOP.
 ```java
 class Rectangle{
     int length, width;
