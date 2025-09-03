@@ -1,4 +1,4 @@
-# Object Oriented Programming (OOP)
+# Object-Oriented Programming (OOP)
 Ditulis oleh Muhammad Quthbi Danish Abqori - 5025241036 \
 Teknik Informatika - [Institut Teknologi Sepuluh Nopember (ITS)](https://www.its.ac.id/) \
 EF234302 - Pemrograman Berorientasi Objek (C) \
