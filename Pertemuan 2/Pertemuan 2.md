@@ -64,7 +64,7 @@ public class POP{
     }
 }
 ```
-**Output**
+**Output:**
 ```
 Area = 15
 ```
@@ -94,7 +94,7 @@ public class OOP{
     }
 }
 ```
-**Output**
+**Output:**
 ```
 Area = 15
 ```
