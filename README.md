@@ -7,7 +7,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 
 ## Daftar Pertemuan
 - [Pertemuan 1](Pertemuan%201)
-- [Pertemuan 2]()
+- [Pertemuan 2](Pertemuan%201)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
@@ -18,4 +18,4 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 2
 > Selasa, 9 September 2025
 
-#### Deskripsi: -
+#### Deskripsi: Pengantar konsep OOP
