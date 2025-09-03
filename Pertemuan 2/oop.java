@@ -1,21 +1,21 @@
-class rectangle{
-    int lenght, width;
+class Rectangle{
+    int length, width;
 
     // Konstruktor
-    rectangle(int l, int w){
-        lenght = l;
+    Rectangle(int l, int w){
+        length = l;
         width = w;
     }
 
     // Method (fungsi) untuk menghitung luas
     int getArea(){
-        return lenght*width;
+        return length*width;
     }
 }
 
-public class oop{
-    public static void main(String[] args){
-        rectangle rc = new rectangle(3, 5);
+public class OOP{
+    public static void Main(String[] args){
+        Rectangle rc = new Rectangle(3, 5);
         System.out.println("Area = " + rc.getArea());
     }
 }

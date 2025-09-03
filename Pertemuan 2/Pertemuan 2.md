@@ -4,33 +4,43 @@
 ---
 ### Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)
-- [1. Apa itu OOP?](#1-definisi)
+- [1. Apa Itu OOP?](#1-apa-itu-oop)
 - [2. OOP vs POP](#2-oop-vs-pop)
-- [a]()
-- [a]()
-- [a]()
-- [a]()
-- [a]()
+- [3. Contoh Sederhana POP & OOP (Java)](#3-contoh-sederhana-pop--oop-java)
+- [Mengapa OOP?](#4-mengapa-oop)
+- [Komponen Dasar OOP](#5-komponen-dasar-oop)
+    - [a. *Class*](#a-class)
+    - [b. *Object*](#b-object)
+    - [c. *Attribute (Field/Property)*](#c-attribute-fieldproperty)
+    - [d. *Method*](#d-method)
+    - [e. *Constructor*](#e-constructor)
+- [Konsep OOP](#6-konsep-oop)
+    - [a. *Encapsulation*](#a-encapsulation)
+    - [b. *Abstraction*](#b-abstraction)
+    - [c. *Inheritance*](#c-inheritance)
+    - [d. *Polymorphism*](#d-polymorphism)
+- [Contoh Program Jadi (Java)](#7-contoh-program-jadi-java)
+- [Kesimpulan](#8-kesimpulan)
 ---
 ### 0. Pendahuluan
-OOP atau *Oriented Object Programming* adalah teknik pemrograman modern yang lebih efisien dari teknik pemrograman POP atau *Procedural Oriented Programming* dan sering digunakan *Framework*. OOP adalah konsep yang harus dipahami ketika mempelajari bahasa pemgoraman Java lebih dalam karena Java sendiri merupakan bahasa pemrograman yang memang didesain untuk OOP.
+OOP atau *Object-Oriented Programming* adalah paradigma pemrograman modern yang lebih efisien dibandingkan POP atau *Procedural-Oriented Programming* dan sering digunakan dalam membangun sebuah *framework*. OOP adalah konsep yang harus dipahami ketika mempelajari bahasa pemrograman Java lebih dalam karena Java sendiri merupakan bahasa pemrograman yang memang didesain untuk OOP.
 
 ---
 ### 1. Apa Itu OOP?
-Sesuai namanya, ***Oriented Object Programming*** atau Pemrograman Berorientasi Objek dalam Bahasa Indonesia adalah sebuah paradigma atau teknik pemrograman yang berorientasikan objek. Pada OOP, fungsi dan variabel dibungkus dalam sebuah objek atau ***class*** yang dapat saling berinteraksi sehingga membentuk sebuah program. Objek yang dimaksud di sini adalah representasi nyata yang memiliki **atribut (variabel/data)** dan **perilaku (*method*/fungsi)**.
+Sesuai namanya, ***Object-Oriented Programming*** atau Pemrograman Berorientasi Objek dalam Bahasa Indonesia adalah sebuah paradigma atau teknik pemrograman yang berorientasikan objek. Pada OOP, fungsi dan variabel dibungkus dalam sebuah objek atau ***class*** yang dapat saling berinteraksi sehingga membentuk sebuah program. Objek yang dimaksud di sini adalah representasi nyata yang memiliki ***attribute* (variabel/data)** dan **perilaku (*method*/fungsi)**.
 
-Tujuan utama dari OOP adalah mempermudah pengembangan perangkal lunak dengan konsep **modularitas, enkapsulasi, pewarisan (*inharitance*), dan polimorfisme**.
+Tujuan utama dari OOP adalah mempermudah pengembangan perangkat lunak dengan konsep **modularitas, enkapsulasi, pewarisan (*inheritance*), dan polimorfisme**.
 
-Konsep OOP pertama kali dikenalkan dalam sebuah basa pemrograman bernama **Simula** yang dikembangkan di Norwegia. Simula memaparkan ide *class* dan *object* yang menjadi dasar dari OOP hingga saat ini. Selanjutnya, pada 1970-an, tim dari MIT (Massachusetts Institute of Technology) mengembangkan bahasa pemrograman **Smalltalk** yang semakin mempopulerkan paradigma berbasis objek. Dari sana, lahirlah bahasa-bahasa pemrograman modern, seperti C++, Java, Python, dan C#, yang menjadi prinsip OOP dan menjadi standar utama dalam pengembangan perangkat lunak saat ini.
+Konsep OOP pertama kali dikenalkan dalam sebuah bahasa pemrograman bernama **Simula** yang dikembangkan di Norwegia. Simula memaparkan ide *class* dan *object* yang menjadi dasar dari OOP hingga saat ini. Selanjutnya, pada 1970-an, Xerox PARC mengembangkan bahasa pemrograman **Smalltalk** yang semakin mempopulerkan paradigma berbasis objek. Dari sana, lahirlah bahasa-bahasa pemrograman modern, seperti C++, Java, Python, dan C#, yang menjadi prinsip OOP dan menjadi standar utama dalam pengembangan perangkat lunak saat ini.
 
 ---
 ### 2. OOP vs POP
-*Oriented Object Programming* memiliki perbedaan mendasar dengan *Procedural Oriented Programming* yaitu sebagai berikut.
+*Object-Oriented Programming* memiliki perbedaan mendasar dengan *Procedural-Oriented Programming* yaitu sebagai berikut.
 
-|Aspek|POP (*Procedural Oriented Programming*)|OOP (*Object Oriented Programming*)|
+|Aspek|POP (*Procedural-Oriented Programming*)|OOP (*Object-Oriented Programming*)|
 |-----|---------------------------------------|-------------------------------|
 |Konsep dasar|Program berbasis fungsi/prosedur|Program berbasis objek (*class* & *object*)|
-|Pendekatan|Lankah demi lankah (*top-down*)|Modular dan berbasis entitas nyata|
+|Pendekatan|Langkah demi langkah (*top-down*)|Modular dan berbasis entitas nyata|
 |Data|Data dan fungsi terpisah|Data dan fungsi digabung dalam objek|
 |Reusability|Sulit digunakan ulang|Mudah digunakan ulang (*class, inheritance*)|
 |Contoh bahasa|C, Pascal|Java, C++, Python|
@@ -38,18 +48,18 @@ Konsep OOP pertama kali dikenalkan dalam sebuah basa pemrograman bernama **Simul
 ---
 ### 3. Contoh Sederhana POP & OOP (Java)
 Berikut adalah contoh sederhana dari implementasi POP dan OOP dalam bahasa Java.
-#### a. Contoh POP (*Procedural Oriented Programming*)
-Berikut adalah [`pop.java`](/Pertemuan%202/pop.java) yang merupakan contoh sederhana dari implementasi POP.
+#### a. Contoh POP (*Procedural-Oriented Programming*)
+Berikut adalah [`POP.java`](/Pertemuan%202/POP.java) yang merupakan contoh sederhana dari implementasi POP.
 ```java
-public class pop{
+public class POP{
     // Fungsi untuk menghitung luas persegi panjang
     public static int getArea(int l, int w){
         return l*w;
     }
 
-    public static void main(String[] args){
-        int lenght = 5, width = 3;
-        int area = getArea(lenght, width);
+    public static void Main(String[] args){
+        int length = 5, width = 3;
+        int area = getArea(length, width);
         System.out.println("Area = " + area);
     }
 }
@@ -59,27 +69,27 @@ public class pop{
 Area = 15
 ```
 
-#### b. Contoh OOP (*Oriented Object Programming*)
-Berikut adalah [`oop.java`](/Pertemuan%202/oop.java) yang merupakan contoh sederhana dari implementasi OOP.
+#### b. Contoh OOP (*Object-Oriented Programming*)
+Berikut adalah [`OOP.java`](/Pertemuan%202/OOP.java) yang merupakan contoh sederhana dari implementasi OOP.
 ```java
-class rectangle{
-    int lenght, width;
+class Rectangle{
+    int length, width;
 
     // Konstruktor
-    rectangle(int l, int w){
-        lenght = l;
+    Rectangle(int l, int w){
+        length = l;
         width = w;
     }
 
     // Method (fungsi) untuk menghitung luas
     int getArea(){
-        return lenght*width;
+        return length*width;
     }
 }
 
-public class oop{
-    public static void main(String[] args){
-        rectangle rc = new rectangle(3, 5);
+public class OOP{
+    public static void Main(String[] args){
+        Rectangle rc = new Rectangle(3, 5);
         System.out.println("Area = " + rc.getArea());
     }
 }
@@ -96,44 +106,44 @@ Ada beberapa alasan mengapa OOP banyak digunakan yaitu sebagai berikut:
 - ***Reusability***\
     Kode dapat digunakan kembali melalui konsep *inheritance* dan *polymorphism*.
 - ***Maintainability***\
-    Program lebih mudah diperbaiki atau dikembangkan karena tiap bagian memiliki fungsi yang jelas
+    Program lebih mudah diperbaiki atau dikembangkan karena tiap bagian memiliki fungsi yang jelas.
 - **Abstraksi dunia nyata**\
-    Objek dalam kode dapat direpresentasikan entitas nyata sehingga lebih intuitif
+    Objek dalam kode dapat direpresentasikan entitas nyata sehingga lebih intuitif.
 
 ---
 ### 5. Komponen Dasar OOP?
 #### **a.** ***Class***
-*Class* bisa kita artikan sebagai *blueprint* atau cetak biru untuk membuat objek, berisi atribut dan metode. Contohnya adalah kita membuat sebuah *class* bernama `mobil`. Dari `class mobil` tersebut, kita bisa tambahkan atribut dan metode, misalnya `horse_power` (atribut) dan `accelerate()` (metode).
+*Class* bisa kita artikan sebagai *blueprint* atau cetak biru untuk membuat objek, berisi *attribute* dan *method*. Contohnya adalah kita membuat sebuah *class* bernama `Mobil`. Dari `class Mobil` tersebut, kita bisa tambahkan *attribute* dan *method*, misalnya `horse_power` (*attribute*) dan `accelerate()` (*method*).
 
 #### **b.** ***Object***
-*Object* adalah instansi dari *class*, mewakili entitas nyata. Contohnya adalah jika kita mempunyai `class mobil`, maka kita bisa membuat sebuah *object* bernama `ferrari` yang merupakan sebuah variabel bertipe data `mobil`.
+*Object* adalah instansi dari *class*, mewakili entitas nyata. Contohnya adalah jika kita mempunyai `class Mobil`, maka kita bisa membuat sebuah *object* bernama `ferrari` yang merupakan sebuah variabel bertipe data `Mobil`.
 
 #### **c.** ***Attribute (Field/Property)***
-*Attribute* adalah data atau variabel yang dimiliki oleh objek. Contohnya adalah jika kita punya objek `ferrari` dari *class* `mobil`, maka kita bisa tambhkan atribut `horse_power` ke `ferrari` tersebut dengan cara `ferrari.horse_power = 1000`.
+*Attribute* adalah data atau variabel yang dimiliki oleh objek. Contohnya adalah jika kita punya objek `ferrari` dari *class* `Mobil`, maka kita bisa tambahkan *attribute* `horse_power` ke `ferrari` tersebut dengan cara `ferrari.horse_power = 1000`.
 
 #### **d.** ***Method***
-*Method* adalah periluka atau fungsi yang dapat dilakukan oleh objek. Contohnya adalah jika kita punya objek `ferrari` dari `class mobil`, maka kita bisa jalankan fungsi `accelerate()` ke `ferrari` dengan cara `ferrari.accelerate()`.
+*Method* adalah Perilaku atau fungsi yang dapat dilakukan oleh objek. Contohnya adalah jika kita punya objek `ferrari` dari `class Mobil`, maka kita bisa jalankan fungsi `accelerate()` ke `ferrari` dengan cara `ferrari.accelerate()`.
 
 #### **e.** ***Constructor***
-*Constructor* adalah metode khusus untuk membuat objek baru. Contohnya jika kita ingin membuat objek baru dari *class* `mobil`, kita bisa lakukan `mobil mclaren = new mobil()`.
+*Constructor* adalah *method* khusus untuk membuat objek baru. Contohnya jika kita ingin membuat objek baru dari *class* `Mobil`, kita bisa lakukan `Mobil mclaren = new Mobil()`.
 
 ---
 ### 6. Konsep OOP
 #### **a.** ***Encapsulation***
-Menyembunyikan detail implementasi dan hanya menampilkan hal yang penting melalui *getter* dan *setter*. Contohnya adalah variabel `private` yang hanya bisa diakses lewat metode publik.
+Menyembunyikan detail implementasi dan hanya menampilkan hal yang penting melalui *getter* dan *setter*. Contohnya adalah variabel `private` yang hanya bisa diakses lewat *method* publik.
 
 #### **b.** ***Abstraction***
 Menyembunyikan detail kompleks dan hanya memperlihatkan fungsi utama. Contohnya adalah *interface* atau *abstract class* yang hanya mendefinisikan perilaku tanpa implementasi detail.
 
 #### **c.** ***Inheritance***
-Kemampuan sebuah *class* untuk mewarisi atribut dan metode dari *class* lain. Contohnya adalah `class Anjing` mewarisi dari `class Hewan`.
+Kemampuan sebuah *class* untuk mewarisi *attribute* dan *method* dari *class* lain. Contohnya adalah `class Anjing` mewarisi dari `class Hewan`.
 
 #### **d.** ***Polymorphism***
-Kemampuan objek untuk memiliki banyak bentuk (perilaku berbeda dengan nama metode yang sama). Contohnya metode `suara()` bisa menghasilkan `"Guk guk"` untuk objek `Anjing`, dan `"Meong"` untuk objek `Kucing`.
+Kemampuan objek untuk memiliki banyak bentuk (perilaku berbeda dengan nama *method* yang sama). Contohnya *method* `suara()` bisa menghasilkan `"Guk guk"` untuk objek `Anjing`, dan `"Meong"` untuk objek `Kucing`.
 
 ---
 ### 7. Contoh Program Jadi (Java)
-Berikut adalah [`Main.java`](Main.java) yang mempunyai komponen-komponen sebagai beriku:
+Berikut adalah [`Main.java`](Main.java) yang mempunyai komponen-komponen sebagai berikut:
 -  *Class* → `Mobil`
 - *Object* → `ferrari` dan `mclaren`
 - *Attribute* → `merk`, `horsePower`, `topSpeed`, dan `tahun`.
@@ -223,7 +233,7 @@ McLaren 720S melakukan pengereman!
 ---
 ### 8. Kesimpulan
 
-OOP adalah paradigma pemrograman yang berorientasi pada objek, menggabungkan data (**atribut**) dan perilaku (***method***) dalam satu kesatuan. Dengan komponen dasar seperti ***class*, *object*, *attribute*, *method*,** dan ***constructor***, serta empat konsep utama (***encapsulation*, *abstraction*, *inheritance*, *polymorphism***), OOP membuat kode lebih **modular, *reusable*, dan mudah dipelihara**. Karena itulah OOP menjadi standar utama dalam pengembangan perangkat lunak modern, termasuk di Java.
+OOP adalah paradigma pemrograman yang berorientasi pada objek, menggabungkan data (***attribute***) dan perilaku (***method***) dalam satu kesatuan. Dengan komponen dasar seperti ***class*, *object*, *attribute*, *method*,** dan ***constructor***, serta empat konsep utama (***encapsulation*, *abstraction*, *inheritance*, *polymorphism***), OOP membuat kode lebih **modular, *reusable*, dan mudah dipelihara**. Karena itulah OOP menjadi standar utama dalam pengembangan perangkat lunak modern, termasuk di Java.
 
 ---
 ###### Ditulis oleh **Muhammad Quthbi Danish Abqori - 5025241036**
