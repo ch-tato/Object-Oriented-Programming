@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TicketMachine
+comment0.text=\r\n\ Ticket\ Machine\ is\ a\ machine\ to\ take\ a\ ticket.\r\n\r\n\ @author\ Muhammad\ Quthbi\ Danish\ Abqori\r\n\ @version\ 1.0\r\n
+comment1.params=price
+comment1.target=TicketMachine(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TicketMachine\r\n
+comment2.params=
+comment2.target=int\ getPrice()
+comment3.params=
+comment3.target=int\ getBalance()
+comment4.params=amount
+comment4.target=void\ insertMoney(int)
+comment5.params=
+comment5.target=void\ printTicket()
+comment6.params=
+comment6.target=int\ getTotal()
+comment7.params=
+comment7.target=void\ refund()
+numComments=8
