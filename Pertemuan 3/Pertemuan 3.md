@@ -1,4 +1,3 @@
-# Dokumentasi Program TicketMachine
 ###### Selasa, 9 September 2025
 ## Pertemuan 3
 # TicketMachine.java

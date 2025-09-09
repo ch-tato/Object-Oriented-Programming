@@ -8,7 +8,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ## Daftar Pertemuan
 - [Pertemuan 1](Pertemuan%201/Pertemuan%201.md)
 - [Pertemuan 2](Pertemuan%202/Pertemuan%202.md)
-- [Pertemuan 3]()
+- [Pertemuan 3](Pertemuan%203/Pertemuan%203.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
@@ -25,5 +25,5 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 3
 > Selasa, 9 September 2025
 
-#### Deskripsi: -
+#### Deskripsi: TicketMachine.java
 ---
