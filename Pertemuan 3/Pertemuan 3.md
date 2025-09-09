@@ -8,7 +8,7 @@
 - [2. Source Code](#2-source-code)
 - [3. Penjelasan Variabel](#3-penjelasan-variabel)
 - [4. Tujuan Setiap Method](#4-tujuan-setiap-method)
-- [5. Cara Kerja di BlueJ](#5-cara-kerja-di-bluej)
+- [5. Cara Kerja pada BlueJ](#5-cara-kerja-pada-bluej)
 - [6. Kesimpulan](#6-kesimpulan)
 ---
 ### 0. Pendahuluan
@@ -143,7 +143,7 @@ Berikut penjelasan fungsi-fungsi yang ada di dalam program:
     ```
    Mengembalikan saldo yang sudah dimasukkan pengguna.  
 
-4. **Setter: `insertMoney(int amount)`**  
+4. **Mutator: `insertMoney(int amount)`**  
     ```java
     public void insertMoney(int amount){
         if(amount > 0){
@@ -157,7 +157,7 @@ Berikut penjelasan fungsi-fungsi yang ada di dalam program:
     ```
    Menginput (menambahkan) uang ke saldo. Hanya menerima input positif.  
 
-5. **Setter: `printTicket()`**  
+5. **Aksi: `printTicket()`**  
     ```java
     public void printTicket(){
         if(balance >= price){
@@ -206,7 +206,7 @@ Berikut penjelasan fungsi-fungsi yang ada di dalam program:
     ```
    Mengembalikan saldo yang sudah dimasukkan pengguna jika transaksi dibatalkan.  
 
-### 5. Cara Kerja di BlueJ
+### 5. Cara Kerja pada BlueJ
 1. Program diawali dengan pembuatan objek `TicketMachine` dengan harga tiket tertentu. Input harga tiket `price` sebesar `25000`
 
     | **Gambar 1.** Membuat objek baru| **Gambar 2.** Menginput `price`|
@@ -227,25 +227,25 @@ Berikut penjelasan fungsi-fungsi yang ada di dalam program:
 
 
 3. Jika saldo cukup, pengguna dapat memanggil `printTicket()` untuk mencetak tiket. Karena tadi pengguna baru menginput uangnya sebesar `20000`, maka outputnya akan terlihat seperti pada Gambar 7.
-    | **Gambar 7.** Contoh ouput `printTicket()` yang gagal|
+    | **Gambar 7.** Contoh output `printTicket()` yang gagal|
     |-------------------------------|
     ![alt text](<Screenshot 2025-09-09 162042.png>)
 
     Oleh karena itu, pengguna harus mengisi `balance`. Setelah itu, pengguna baru bisa memanggil `printTicket()` untuk mencetak tiket.
-    | **Gambar 8.** Contoh ouput `printTicket()` yang berhasil|
+    | **Gambar 8.** Contoh output `printTicket()` yang berhasil|
     |-------------------------------|
     ![alt text](<Screenshot 2025-09-09 165100.png>)
 
 4. Jika uang yang dimasukkan lebih besar, mesin memberikan kembalian seperti yang terlihat pada Gambar 8.
 5. Jika transaksi dibatalkan, pengguna dapat memanggil `refund()` dan `balance` pengguna akan bernilai 0. Untuk mengecek `balance`, panggil `getBalance()`.
-    | **Gambar 9.** Contoh ouput dari `refund()`| **Gambar 10.** Sisa `balance` pengguna|
+    | **Gambar 9.** Contoh output dari `refund()`| **Gambar 10.** Sisa `balance` pengguna|
     |-|-|
     |![alt text](<Screenshot 2025-09-09 162421.png>)|![alt text](<Screenshot 2025-09-09 162528.png>)|
 
 
 
 6. Total pendapatan mesin dapat dilihat dengan `getTotal()`.
-    | **Gambar 11.** Contoh ouput `getTotal()` yang gagal|
+    | **Gambar 11.** Contoh output `getTotal()` yang gagal|
     |-------------------------------|
     ![alt text](<Screenshot 2025-09-09 165855.png>)
 
