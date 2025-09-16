@@ -4,7 +4,6 @@
 <h1><b>Digital Clock</b></h1>
 
 ---
----
 # Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)
 - [1. clock.java](#1-clockjava)

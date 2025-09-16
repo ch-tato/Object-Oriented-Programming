@@ -4,7 +4,6 @@
 <h1><b>Pengantar Konsep OOP</b></h1>
 
 ---
----
 ### Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)
 - [1. Apa Itu OOP?](#1-apa-itu-oop)

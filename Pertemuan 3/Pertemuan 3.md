@@ -4,7 +4,6 @@
 <h1><b>TicketMachine.java</b></h1>
 
 ---
----
 ### Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)
 - [1. Deskripsi](#1-deskripsi)
