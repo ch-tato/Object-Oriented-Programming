@@ -421,7 +421,7 @@ public static void sleepMilis(int milisecond){
 Jika program di-run sebagaimana `main` menetapkan `clock.setTime(15, 18, 55, 16, 9, 2025, 30);`, maka setiap loop akan menambah detik dan mencetak blok seperti berikut. Contoh snapshot 3 iterasi berturut-turut (nilai temperatur acak di antara 28..33 — contoh di bawah hanya ilustrasi):
 |Gambar 1. Contoh output `clock.java`|
 |-|
-![alt text](<Screenshot 2025-09-16 212154.png>)
+![alt text](screenshots/Screenshot%202025-09-16%20212154.png)
 
 ```
 tick...
@@ -808,7 +808,7 @@ public static void main(String[] args) {
 
 |Gambar 2. Contoh output `ClockGUI.java`|
 |-|
-![alt text](<Screenshot 2025-09-16 211743.png>)
+![alt text](screenshots/Screenshot%202025-09-16%20211743.png)
 
 # 3. Kesimpulan
 - **clock.java** menunjukkan penerapan konsep OOP dengan modularization dan abstraction melalui pemisahan class dan method untuk menangani waktu, tanggal, dan suhu. Program ini berbasis console.  
