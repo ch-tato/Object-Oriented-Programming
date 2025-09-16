@@ -1,6 +1,9 @@
-###### Rabu, 3 September 2025
-## Pertemuan 2
-# Pengantar Konsep OOP
+###### Selasa, 9 September 2025
+### Pertemuan 3
+---
+<h1><b>Pengantar Konsep OOP</b></h1>
+
+---
 ---
 ### Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)

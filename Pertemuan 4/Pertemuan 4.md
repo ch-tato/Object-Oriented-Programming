@@ -174,7 +174,7 @@ public class clock {
 
 ## B. Apa yang dilakukan kode ini
 
-Program `clock.java` ini adalah implementasi sederhana dari *digital clock* menggunakan nested inner classes di Java. Secara ringkas program:
+Program [`clock.java`](source%20code/clock.java) ini adalah implementasi sederhana dari *digital clock* menggunakan nested inner classes di Java. Secara ringkas program:
 
 - Mendefinisikan `numberDisplay` sebagai unit yang menyimpan dan mengatur sebuah nilai numerik yang memiliki batas maksimal (mis. detik 0..59).
 - Mendefinisikan `clockDisplay` yang menggunakan beberapa `numberDisplay` untuk mewakili detik, menit, jam, hari, bulan, dan tahun. Juga menyertakan inner class `temp` untuk menghasilkan nilai temperatur acak.
@@ -615,7 +615,7 @@ public class ClockGUI extends JPanel {
 
 ## B. Apa yang dilakukan kode ini (dibanding `clock.java`)
 
-`ClockGUI.java` adalah versi yang memvisualisasikan `clock.java` menggunakan Swing GUI:
+[`ClockGUI.java`](source%20code/ClockGUI.java) adalah versi yang memvisualisasikan `clock.java` menggunakan Swing GUI:
 
 - **Fungsi utama tetap sama**: menyimpan unit waktu (`second`, `minute`, `hour`, `day`, `month`, `year`) dan melakukan increment setiap detik; juga menghasilkan nilai temperatur acak.
 - **Perbedaan penting**:

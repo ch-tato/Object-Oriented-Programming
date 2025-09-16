@@ -1,6 +1,9 @@
 ###### Selasa, 9 September 2025
-## Pertemuan 3
-# TicketMachine.java
+### Pertemuan 3
+---
+<h1><b>TicketMachine.java</b></h1>
+
+---
 ---
 ### Daftar Isi
 - [0. Pendahuluan](#0-pendahuluan)
