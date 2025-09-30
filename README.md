@@ -10,7 +10,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 - [Pertemuan 2](Pertemuan%202/Pertemuan%202.md)
 - [Pertemuan 3](Pertemuan%203/Pertemuan%203.md)
 - [Pertemuan 4](Pertemuan%204/Pertemuan%204.md)
-- [Pertemuan 5](Pertemuan%204/Pertemuan%205.md)
+- [Pertemuan 5](Pertemuan%205/Pertemuan%205.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
