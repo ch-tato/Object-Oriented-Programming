@@ -358,5 +358,18 @@ public static void main(String[] args){
 
 Program menggunakan `Scanner` untuk input pengguna dan menangani berbagai skenario seperti penambahan mata kuliah dengan pengecekan kuota dan batas SKS.
 
+*Catatan: Saya juga sudah membuat versi FRS yang menggunakan GUI yang dapat dilihat di* [`FRSGUI.java`](/Pertemuan%205/FRSGUI/FRSGUI.java)
+
+## 7. Contoh Output
+
+|Gambar 1. Struktur hubungan antar class|
+|-|
+|![alt text](<Screenshot 2025-09-30 154233.png>)|
+
+
+|Gambar 2. Contoh menampilkan daftar MK| Gambar 3. Contoh menambahkan MK ke FRS| Gambar 4. Contoh menghapus MK dari FRS|
+|-|-|-|
+|![alt text](<Screenshot 2025-09-30 154320.png>)|![alt text](<Screenshot 2025-09-30 154401.png>) |![alt text](<Screenshot 2025-09-30 154533.png>) |
+
 ---
 ###### Ditulis oleh **Muhammad Quthbi Danish Abqori - 5025241036**
