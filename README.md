@@ -35,5 +35,11 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 #### Deskripsi: Digital Clock
 ---
 
+### Pertemuan 5
+> Selasa, 23 September 2025
+
+#### Deskripsi: Sistem FRS
+---
+
 ---
 ###### *Jika Anda menemukan sesuatu yang salah, Saya akan sangat berterimakasih jika Anda melaporakannya ke saya melalui email *5025241036@student.its.ac.id**
