@@ -38,7 +38,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 5
 > Selasa, 23 September 2025
 
-#### Deskripsi: Sistem FRS
+#### Deskripsi: Sistem FRS (Formulir Rencana Studi)
 ---
 
 ### Pertemuan 6
