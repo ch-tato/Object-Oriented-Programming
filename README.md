@@ -41,5 +41,9 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 #### Deskripsi: Sistem FRS
 ---
 
+### Pertemuan 6
+> Selasa, 30 September 2025
+
+#### Deskripsi: ...
 ---
 ###### *Jika Anda menemukan sesuatu yang salah, Saya akan sangat berterimakasih jika Anda melaporakannya ke saya melalui email *5025241036@student.its.ac.id**
