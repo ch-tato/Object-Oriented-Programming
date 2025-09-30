@@ -26,7 +26,7 @@
 Dalam sistem ini, FRS memungkinkan mahasiswa untuk menambah dan menghapus mata kuliah dengan mempertimbangkan kuota dan batas maksimal SKS.
 
 ## 1. Source Code
-Berikut adalah isi dari [`Main.java`](/Main.java):
+Berikut adalah isi dari [`Main.java`](/Pertemuan%205/Main.java):
 
 ```java
 import java.util.ArrayList;
