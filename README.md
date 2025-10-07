@@ -11,6 +11,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 - [Pertemuan 3](Pertemuan%203/Pertemuan%203.md)
 - [Pertemuan 4](Pertemuan%204/Pertemuan%204.md)
 - [Pertemuan 5](Pertemuan%205/Pertemuan%205.MD)
+- [Pertemuan 6](Pertemuan%206/Pertemuan%206.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
@@ -45,7 +46,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 6
 > Selasa, 30 September 2025
 
-#### Deskripsi: Personal Note App
+#### Deskripsi: Grouping Object
 ---
 
 ### Pertemuan 7
