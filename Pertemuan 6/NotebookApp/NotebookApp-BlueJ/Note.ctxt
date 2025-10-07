@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Note
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Note\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=title\ content
+comment1.target=Note(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment3.params=
+comment3.target=java.lang.String\ getContent()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

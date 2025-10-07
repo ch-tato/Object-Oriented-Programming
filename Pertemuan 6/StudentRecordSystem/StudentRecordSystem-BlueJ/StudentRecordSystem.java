@@ -1,38 +1,15 @@
-package StudentRecordSystem;
 
+/**
+ * Write a description of class StudentRecordSystem here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Student {
-    private String nrp;
-    private String name;
-    private String major;
-
-    public Student(String nrp, String name, String major) {
-        this.nrp = nrp;
-        this.name = name;
-        this.major = major;
-    }
-
-    public String getNim() {
-        return nrp;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getMajor() {
-        return major;
-    }
-
-    @Override
-    public String toString() {
-        return "NRP: " + nrp + " | Nama: " + name + " | Jurusan: " + major;
-    }
-}
-
-public class StudentRecordSystem {
+public class StudentRecordSystem
+{
     public static void main(String[] args) {
         ArrayList<Student> records = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
@@ -52,12 +29,12 @@ public class StudentRecordSystem {
             switch (choice) {
                 case 1:
                     System.out.print("Masukkan NRP: ");
-                    String nrp = scanner.nextLine();
+                    String nim = scanner.nextLine();
                     System.out.print("Masukkan Nama: ");
                     String name = scanner.nextLine();
                     System.out.print("Masukkan Jurusan: ");
                     String major = scanner.nextLine();
-                    records.add(new Student(nrp, name, major));
+                    records.add(new Student(nim, name, major));
                     System.out.println("Mahasiswa berhasil ditambahkan!");
                     break;
 
@@ -73,7 +50,7 @@ public class StudentRecordSystem {
                     break;
 
                 case 3:
-                    System.out.print("Masukkan NRP yang dicari: ");
+                    System.out.print("Masukkan NIM yang dicari: ");
                     String searchNim = scanner.nextLine();
                     boolean found = false;
 
@@ -86,19 +63,19 @@ public class StudentRecordSystem {
                     }
 
                     if (!found) {
-                        System.out.println("Mahasiswa dengan NRP " + searchNim + " tidak ditemukan.");
+                        System.out.println("Mahasiswa dengan NIM " + searchNim + " tidak ditemukan.");
                     }
                     break;
 
                 case 4:
-                    System.out.print("Masukkan NRP mahasiswa yang akan dihapus: ");
+                    System.out.print("Masukkan NIM mahasiswa yang akan dihapus: ");
                     String deleteNim = scanner.nextLine();
                     boolean removed = records.removeIf(s -> s.getNim().equalsIgnoreCase(deleteNim));
 
                     if (removed) {
                         System.out.println("Data mahasiswa berhasil dihapus.");
                     } else {
-                        System.out.println("Mahasiswa dengan NRP " + deleteNim + " tidak ditemukan.");
+                        System.out.println("Mahasiswa dengan NIM " + deleteNim + " tidak ditemukan.");
                     }
                     break;
 
