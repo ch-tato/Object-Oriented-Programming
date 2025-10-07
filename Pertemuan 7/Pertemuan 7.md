@@ -126,7 +126,7 @@ public class JarkomSupport {
 
 ---
 
-### ⚙️ **Constructor: `public JarkomSupport()`**
+### **Constructor: `public JarkomSupport()`**
 
 * Bertugas untuk **menginisialisasi data awal** chatbot.
 * Di dalamnya dibuat objek `HashMap` baru dan objek `Random`.
