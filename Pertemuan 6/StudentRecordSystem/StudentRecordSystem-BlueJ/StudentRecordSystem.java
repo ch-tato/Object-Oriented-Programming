@@ -29,12 +29,12 @@ public class StudentRecordSystem
             switch (choice) {
                 case 1:
                     System.out.print("Masukkan NRP: ");
-                    String nim = scanner.nextLine();
+                    String nrp = scanner.nextLine();
                     System.out.print("Masukkan Nama: ");
                     String name = scanner.nextLine();
                     System.out.print("Masukkan Jurusan: ");
                     String major = scanner.nextLine();
-                    records.add(new Student(nim, name, major));
+                    records.add(new Student(nrp, name, major));
                     System.out.println("Mahasiswa berhasil ditambahkan!");
                     break;
 
@@ -50,7 +50,7 @@ public class StudentRecordSystem
                     break;
 
                 case 3:
-                    System.out.print("Masukkan NIM yang dicari: ");
+                    System.out.print("Masukkan NRP yang dicari: ");
                     String searchNim = scanner.nextLine();
                     boolean found = false;
 
@@ -63,19 +63,19 @@ public class StudentRecordSystem
                     }
 
                     if (!found) {
-                        System.out.println("Mahasiswa dengan NIM " + searchNim + " tidak ditemukan.");
+                        System.out.println("Mahasiswa dengan NRP " + searchNim + " tidak ditemukan.");
                     }
                     break;
 
                 case 4:
-                    System.out.print("Masukkan NIM mahasiswa yang akan dihapus: ");
+                    System.out.print("Masukkan NRP mahasiswa yang akan dihapus: ");
                     String deleteNim = scanner.nextLine();
                     boolean removed = records.removeIf(s -> s.getNim().equalsIgnoreCase(deleteNim));
 
                     if (removed) {
                         System.out.println("Data mahasiswa berhasil dihapus.");
                     } else {
-                        System.out.println("Mahasiswa dengan NIM " + deleteNim + " tidak ditemukan.");
+                        System.out.println("Mahasiswa dengan NRP " + deleteNim + " tidak ditemukan.");
                     }
                     break;
 

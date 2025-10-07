@@ -7,18 +7,18 @@
  */
 public class Student
 {
-    private String nim;
+    private String nrp;
     private String name;
     private String major;
 
-    public Student(String nim, String name, String major) {
-        this.nim = nim;
+    public Student(String nrp, String name, String major) {
+        this.nrp = nrp;
         this.name = name;
         this.major = major;
     }
 
     public String getNim() {
-        return nim;
+        return nrp;
     }
 
     public String getName() {
@@ -31,6 +31,6 @@ public class Student
 
     @Override
     public String toString() {
-        return "NIM: " + nim + " | Nama: " + name + " | Jurusan: " + major;
+        return "NRP: " + nrp + " | Nama: " + name + " | Jurusan: " + major;
     }
 }
