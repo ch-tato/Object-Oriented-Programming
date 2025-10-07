@@ -12,6 +12,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 - [Pertemuan 4](Pertemuan%204/Pertemuan%204.md)
 - [Pertemuan 5](Pertemuan%205/Pertemuan%205.MD)
 - [Pertemuan 6](Pertemuan%206/Pertemuan%206.md)
+- [Pertemuan 7](Pertemuan%207/Pertemuan%207.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
@@ -52,6 +53,6 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 ### Pertemuan 7
 > Selasa, 7 November 2025
 
-#### Deskripsi: ...
+#### Deskripsi: JarkomSupport.java
 ---
 ###### *Jika Anda menemukan sesuatu yang salah, Saya akan sangat berterimakasih jika Anda melaporakannya ke saya melalui email *5025241036@student.its.ac.id**
