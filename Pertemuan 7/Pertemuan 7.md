@@ -167,7 +167,7 @@ public class JarkomSupport {
 
 |Gambar 1 Contoh Output|
 |-|
-||
+|![alt text](image.png)|
 
 ---
 
