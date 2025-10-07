@@ -1,5 +1,5 @@
-###### Selasa, 16 September 2025
-### Pertemuan 4
+###### Selasa, 30 September 2025
+### Pertemuan 5
 ---
 <h1><b>Sistem FRS (Formulir Rencana Studi)</b></h1>
 
