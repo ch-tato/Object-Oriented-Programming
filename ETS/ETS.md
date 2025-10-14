@@ -10,7 +10,7 @@
 0. [Deskripsi Umum](#0-deskripsi-umum)
 1. [Source Code](#1-source-code)
 2. [Penjelasan Code](#2-penjelasan-code)
-3. [Contoh Output](#3-contoh-output)
+3. [Contoh Output](#3-contoh-output--link-video-demo-youtube)
 4. [Kesimpulan](#4-kesimpulan)
 
 ---
@@ -335,7 +335,7 @@ Class ini bertujuan untuk menyediakan tampilan interaktif agar pengguna dapat me
 
 ---
 
-## 3. Contoh Output
+## 3. Contoh Output + Link Video Demo (Youtube)
 
 |Gambar 2. Contoh Output 1|
 |-|
@@ -373,8 +373,7 @@ Class ini bertujuan untuk menyediakan tampilan interaktif agar pengguna dapat me
 |-|
 |![alt text](<Screenshot 2025-10-14 144642.png>)|
 
-       
-
+Link Video Demo: https://youtu.be/OSqE0wYfJIE
 
 ---
 

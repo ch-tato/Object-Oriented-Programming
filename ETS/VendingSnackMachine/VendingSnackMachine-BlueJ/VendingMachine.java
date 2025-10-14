@@ -71,7 +71,7 @@ public class VendingMachine
         selectedSnack.setStock(selectedSnack.getStock() - total);
         System.out.println("Anda membeli: " + total + " " + selectedSnack.getName());
         System.out.println("Sisa saldo: " + balance);
-                log.add("Membeli " + total + " " + selectedSnack.getName() + " seharga " + selectedSnack.getPrice() + " (total: " + (selectedSnack.getPrice() * total) + ")");
+        log.add("Membeli " + total + " " + selectedSnack.getName() + " seharga " + selectedSnack.getPrice() + " (total: " + (selectedSnack.getPrice() * total) + ")");
     }
 
     public void returnChange() {
