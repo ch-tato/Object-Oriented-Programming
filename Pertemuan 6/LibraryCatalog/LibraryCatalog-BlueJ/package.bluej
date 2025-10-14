@@ -2,10 +2,10 @@
 dependency1.from=LibraryCatalog
 dependency1.to=Book
 dependency1.type=UsesDependency
-editor.fx.0.height=878
-editor.fx.0.width=1550
-editor.fx.0.x=-7
-editor.fx.0.y=-7
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=42
 objectbench.height=92
 objectbench.width=760
 package.divider.horizontal=0.6
