@@ -14,7 +14,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 - [Pertemuan 6](Pertemuan%206/Pertemuan%206.md)
 - [Pertemuan 7](Pertemuan%207/Pertemuan%207.md)
 - [ETS](ETS/ETS.md)
-- [Pertemuan 8](Pertemuan%208/Pertemuan%208.md)
+- [Pertemuan 9](Pertemuan%209/Pertemuan%209.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
@@ -64,7 +64,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 #### Deskripsi: Vending Snack Machine
 ---
 
-### Pertemuan 8
+### Pertemuan 9
 > Selasa, 21 Oktober 2025
 
 #### Deskripsi: *World of Zuul*
