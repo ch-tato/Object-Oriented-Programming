@@ -14,7 +14,7 @@ Diampu oleh [Fajar Baskoro, S.Kom., M.T.](https://www.its.ac.id/informatika/id/p
 - [Pertemuan 6](Pertemuan%206/Pertemuan%206.md)
 - [Pertemuan 7](Pertemuan%207/Pertemuan%207.md)
 - [ETS](ETS/ETS.md)
-- [ETS](Pertemuan%208/Pertemuan%208.md)
+- [Pertemuan 8](Pertemuan%208/Pertemuan%208.md)
 
 ### Pertemuan 1
 > Selasa, 2 September 2025
