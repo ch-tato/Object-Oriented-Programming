@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Room\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n
+comment2.params=north\ east\ south\ west
+comment2.target=void\ setExits(Room,\ Room,\ Room,\ Room)
+comment2.text=\r\n\ Define\ the\ exits\ of\ this\ room.\ \ Every\ direction\ either\ leads\r\n\ to\ another\ room\ or\ is\ null\ (no\ exit\ there).\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ Return\ the\ description\ of\ the\ room\ (the\ one\ that\ was\ defined\r\n\ in\ the\ constructor).\r\n
+numComments=4

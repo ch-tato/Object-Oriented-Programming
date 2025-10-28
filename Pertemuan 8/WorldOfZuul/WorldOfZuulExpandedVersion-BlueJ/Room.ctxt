@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Room
+comment1.params=desc
+comment1.target=Room(java.lang.String)
+comment10.params=
+comment10.target=void\ showItems()
+comment2.params=dir\ r
+comment2.target=void\ setExit(java.lang.String,\ Room)
+comment3.params=dir
+comment3.target=Room\ getExit(java.lang.String)
+comment4.params=
+comment4.target=void\ printExits()
+comment5.params=
+comment5.target=java.lang.String\ getDesc()
+comment6.params=it
+comment6.target=void\ addItem(Item)
+comment7.params=n
+comment7.target=void\ setNPC(NPC)
+comment8.params=
+comment8.target=NPC\ getNPC()
+comment9.params=name
+comment9.target=Item\ takeItem(java.lang.String)
+numComments=11
